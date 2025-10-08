@@ -27,3 +27,4 @@ jobs:
         with:
           branch: gh-pages  # 部署目标分支
           folder: site      # 待部署的文件目录
+          token: ${{ secrets.GITHUB_TOKEN }}
